@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="shopping-list/shopping-list/wwwroot/lib/jquery/dist"></script>
+</head>
+<body>
+    <div class="text-center" id="createListDiv">
+        <h1 class="display-4">Shopping List</h1>
+        <input type="text" id="shoppingListName" class="form-control" placeholder="New List">
+        <button onclick="createShoppingList()">Create</button>
+    </div>
+
+    <div class="text-center" id="shoppingListDiv" style="display: none;">
+        <h1 class="display-4" id="shoppingListTitle">New List</h1>
+        <input id="newItemName" type="text" class="form-control" placeholder="New Item">
+        <button onclick="addItem()">Add</button>
+
+        <ul id="shoppingListItems">
+            <li>Salad <button>D</button> <button>C</button></li>
+            <li>Milk <button>D</button> <button>C</button></li>
+            <li>Tomatoes <button>D</button> <button>C</button></li>
+        </ul>
+    </div>
+
+</body>
+</html>

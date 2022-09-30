@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hW/lAV/MMJz8Zz7a3G/Lr0UdhrsKi3t/sS7ojB+rFukmUcfE4Fg1UbmjOX5ehCr2J+PfCyjge69JnyL/eCnRfw==",
+  "success": true,
+  "projectFilePath": "/home/coder/shopping-list/shopping-list/shopping-list.csproj",
+  "expectedPackageFiles": [
+    "/home/coder/.nuget/packages/jquery/3.6.0/jquery.3.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

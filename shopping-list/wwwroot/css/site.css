@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+ul {
+  list-style-type: none;
+  max-width: 300px;
+  margin: 20px auto;
+}
+li {
+  min-height: 20px;
+  text-align: left;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+li button {
+  margin: 0 3px;
+}
+.checked {
+  text-decoration: line-through;
+}
